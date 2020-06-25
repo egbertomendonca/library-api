@@ -93,7 +93,7 @@ public class BookRepositoryTest {
 
     }
 
-    private Book createNewBook(String isbn) {
+    public static Book createNewBook(String isbn) {
         return Book.builder().title("Aventuras").author("Fulano").isbn(isbn).build();
     }
 
